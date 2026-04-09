@@ -1,0 +1,32 @@
+# Dependencies
+.deps/
+.deps_yolo/
+**/__pycache__/
+*.pyc
+*.so
+
+# Large Data & Models
+*.zip
+*.pt
+*.onnx
+*.engine
+*.trt
+*.tif
+*.png
+*.jpg
+*.jpeg
+*.save
+*.npz
+**/augment/
+**/resized_new/
+**/dataset/
+**/final/
+**/runs/
+**/experiments/
+**/outputs/
+SAR/SAR/yolo_exp/dataset*/
+
+# Logs & Temp
+*.log
+tempCodeRunnerFile.python
+.aider*
