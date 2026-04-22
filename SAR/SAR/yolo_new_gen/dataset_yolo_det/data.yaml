@@ -1,0 +1,5 @@
+path: /home/helena/project_sar/SAR/SAR/yolo_new_gen/dataset_yolo_det
+train: train/images
+val: val/images
+nc: 4
+names: ['Bulk Carrier', 'Container Ship', 'Fishing', 'Tanker']

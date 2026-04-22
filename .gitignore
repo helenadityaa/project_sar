@@ -5,28 +5,44 @@
 *.pyc
 *.so
 
-# Large Data & Models
-*.zip
+# Dataset Images & Labels (Dont push these)
+**/images/
+**/labels/
+**/dataset*/
+**/resized_new/
+**/augment/
+**/final/
+**/experiments/
+**/outputs/
+SAR/SAR/yolo_exp/dataset*/
+SAR/SAR/yolo_new_gen/dataset_yolo_det/train/
+SAR/SAR/yolo_new_gen/dataset_yolo_det/val/
+
+# Keep Data YAML
+!**/data.yaml
+
+# Models (Heavy files)
 *.pt
 *.onnx
 *.engine
 *.trt
+*.save
+*.npz
+
+# Keep Metadata & Summary
+!SAR/SAR/metadata.csv
+!**/summary.json
+
+# Image files
 *.tif
 *.png
 *.jpg
 *.jpeg
-*.save
-*.npz
-**/augment/
-**/resized_new/
-**/dataset/
-**/final/
-**/runs/
-**/experiments/
-**/outputs/
-SAR/SAR/yolo_exp/dataset*/
+*.zip
 
 # Logs & Temp
 *.log
 tempCodeRunnerFile.python
 .aider*
+.gitattributes
+.ipynb_checkpoints/
