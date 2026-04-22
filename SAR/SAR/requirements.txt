@@ -1,11 +1,26 @@
-numpy
-torch
+# Project SAR: Deep Learning and Remote Sensing
+# Requirements for ResNet50RT and YOLO New Gen
+
+# Core Deep Learning
+ultralytics
+torch>=2.0.0
 torchvision
-scikit-learn
+tensorrt  # Only works if NVIDIA TensorRT is installed on system
+
+# Data Processing & SAR
 tifffile
-pandas
-joblib
 scikit-image
-scipy
+scikit-learn
+numpy
+pandas
+opencv-python
+
+# Visualization
 matplotlib
 seaborn
+Pillow
+
+# Optimization
+onnx
+onnxruntime-gpu
+# nvidia-tensorrt  # (Optional: install manually based on CUDA version)
